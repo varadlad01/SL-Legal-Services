@@ -1,0 +1,341 @@
+
+body
+{
+	font-family: helvetica neue,Arial,sans-serif;
+	letter-spacing: 0.5px;
+}
+
+hr
+{
+	margin: 7px auto;
+}
+
+.regulartitle
+{
+	font-size: 30px;
+	color: #1f2022;
+	display: block;
+}
+.regulartext
+{
+	font-size: 14px;	    
+	display: block;
+	color: #717171;
+	text-align: justify;	   
+	font-weight: 300; 	
+
+}
+.abouthomemyself
+{
+	margin: 50px 0;
+}
+
+/* NoticeBoard */
+
+.noticetitle
+{
+	//font-family:  "Oswald Regular";
+	font-size: 24px;
+	background-color: #f4ac41;
+	padding: 10px 0px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+.noticetitle1
+{
+	//font-family:  "Oswald Regular";
+	font-size: 20px;
+
+	background-color: #f4ac41;
+	padding: 5px 0px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+
+
+/* End NoticeBoard */
+
+/* Mission Vison */
+.missionvission
+{
+	padding: 20px 20px;
+
+}
+/* about carousel */
+#custom_carousel .item {
+
+	color:#111;
+	height: auto;
+	background:#fff;
+	padding:20px 0;
+	border-radius: 10px 10px 0px 0px;
+	/* border-bottom: 3px solid #ffc800; */
+}
+#custom_carousel .controls{
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding:0;
+	margin-top:10px;
+	white-space: nowrap;
+	text-align: center;
+	position: relative;
+	background:#fff;
+
+}
+#custom_carousel .controls li {
+	display: table-cell;
+	width: 1%;
+	max-width:90px;
+	border: 1px solid #eee;
+
+}
+#custom_carousel .controls li a {
+	//color: #000;
+	background:#111;
+	color: #fff;
+}
+
+
+
+#custom_carousel .controls li a:hover {
+	//background:rgba(255,255,255,0.9);
+
+	background-color: #3da5e5;
+}
+#custom_carousel .controls li.active a{
+
+	background-color: #3da5e5;
+
+	//color: #fff;
+}
+#custom_carousel .controls a small {
+	overflow:hidden;
+	display:block;
+	font-size:14px;
+	margin-top:5px;
+	font-weight:400;
+	//color: #fff;
+}
+
+/* about carousel */
+
+
+
+/* Department */
+.dept-backdiv
+{
+	background: linear-gradient(to right, rgba(35,48,83, 0.5),rgba(0, 0, 0,0.5)), url('../images/lawbalance.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	height: auto;
+	vertical-align: middle;
+	//border-top: 4px solid #A71930;   
+	padding: 50px 0px 100px 0px;
+	color: #aaa;
+	border-bottom: 4px solid #FFC000;
+
+}
+
+.versed-with
+{
+	background: linear-gradient(to right, rgba(35,48,83, 0.5),rgba(0, 0, 0,0.5)), url('../images/9.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	border-top:4px solid #FFC000;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	height: auto;
+	vertical-align: middle;
+	
+}
+
+
+
+.dept-icon
+{
+	margin-top: 5px;
+	height: 200px;
+	width: 200px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 10px 3px;
+
+	//background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+.dept-icon p
+{
+	color: #fff;
+}
+
+.dept-icon:hover
+{
+	transition: 0.5s;
+	//border: 1px solid #111;	
+	background-color: rgba(255,255,255,0.7);
+	color: #111;
+}
+
+
+/* End Department */
+
+
+.section-title-divider {
+  width: 100px;
+  height: 3px;
+  background: #FFC000;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.section-title-divider-services {
+  width: 500px;
+  height: 3px;
+  background: black;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+
+
+
+#about .about-img img {
+  max-width: 100%;
+  border: 2px solid black; 
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about {
+  background: #fff;
+  padding: 0px 0;
+}
+
+#about .about-img-about {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+#about .about-img-about img {
+  max-width: 100%;
+  border: 2px solid black; 
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  #about .about-img-about {
+    height: auto;
+  }
+  #about .about-img-about img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .about-content {
+  background: #fff;
+}
+
+#about .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top:10; 
+}
+
+#about .about-text {
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 15px;
+
+}
+#about .about-myself-text {
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color:black;
+}
+
+#about .about-text:last-child {
+  margin-bottom: 0;
+}
+.about-myself-head
+{
+	font-weight: 700;
+  	font-size: 32px;
+  	margin-top:10; 
+	color:#222;
+	font-style: italic;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #111;
+  margin-top:0; 
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mission-vission
+{
+	background-color:#222222 ;
+	line-height: 30px;
+	font-size: 18px;
+	padding-top: 47px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom:50px ; 
+	
+	color: white;
+	margin-bottom: 0; 
+}
+
+.commit
+{
+	background-color:#FFC000 ;
+	font-weight: 500;
+	line-height: 30px;
+	font-size: 18px;
+	padding: 45px;
+	color: black;
+	margin-bottom:0px;
+}
+.mission-commit
+{
+
+}
+.choose-me p
+{
+	font-weight: bold;
+}
+
+.mar-img img
+{
+	border-radius:20px;
+	margin-left: 40px;
+}
+
+
